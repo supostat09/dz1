@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D166884E298B8F3200703E73 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D166884D298B8F3200703E73 /* main.swift */; };
+		D1668855298B907900703E73 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1668854298B907900703E73 /* Client.swift */; };
+		D1668857298B90B900703E73 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1668856298B90B900703E73 /* Card.swift */; };
+		D166885B298B96F800703E73 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = D166885A298B96F800703E73 /* Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		D166884A298B8F3200703E73 /* dz1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dz1; sourceTree = BUILT_PRODUCTS_DIR; };
 		D166884D298B8F3200703E73 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D1668854298B907900703E73 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		D1668856298B90B900703E73 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D166885A298B96F800703E73 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D166884D298B8F3200703E73 /* main.swift */,
+				D1668856298B90B900703E73 /* Card.swift */,
+				D1668854298B907900703E73 /* Client.swift */,
+				D166885A298B96F800703E73 /* Bank.swift */,
 			);
 			path = dz1;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1668855298B907900703E73 /* Client.swift in Sources */,
+				D166885B298B96F800703E73 /* Bank.swift in Sources */,
+				D1668857298B90B900703E73 /* Card.swift in Sources */,
 				D166884E298B8F3200703E73 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
